@@ -1,0 +1,18 @@
+.header {
+  &__wrapper {
+    @media screen and (max-width: 700px) {
+      flex-direction: column;
+    }
+  }
+  &__title {
+    @media screen and (max-width: 700px) {
+      margin-bottom: 20px;
+    }
+  }
+  &__form {
+    @media screen and (max-width: 500px) {
+      max-width: 95%;
+      width: 100%;
+    }
+  }
+}

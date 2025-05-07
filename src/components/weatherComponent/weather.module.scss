@@ -1,0 +1,16 @@
+.weather {
+  &__wrapper {
+    @media screen and (max-width: 1084px) {
+      justify-content: center;
+    }
+  }
+
+  &__card {
+    margin: 80px 20px 0 20px;
+    padding-top: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+  }
+}
