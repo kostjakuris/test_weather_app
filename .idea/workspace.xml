@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2848a97-60f2-41bb-84cb-b25a3f125e3c" name="Changes" comment="implement app functionality">
+    <list default="true" id="d2848a97-60f2-41bb-84cb-b25a3f125e3c" name="Changes" comment="add prettier">
       <change afterPath="$PROJECT_DIR$/jest.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/header/tests/Header.test.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/hourlyWeatherComponent/tests/hourlyWeather.test.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/components/weatherComponent/tests/weatherComponent.test.tsx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/services/api/tests/api.test.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test.utils.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/tests/Header.test.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/tests/Header.test.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,8 +157,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Jest.display hourly weather data" />
-        <item itemvalue="Jest.display weather data" />
         <item itemvalue="Jest.Toggle events" />
+        <item itemvalue="Jest.display weather data" />
         <item itemvalue="Jest.Test API.Search of city coordinates" />
         <item itemvalue="Jest.Header.test.tsx" />
       </list>
@@ -187,7 +187,7 @@
       <workItem from="1746556435707" duration="173000" />
       <workItem from="1746597272142" duration="22695000" />
       <workItem from="1746622039313" duration="84000" />
-      <workItem from="1746622132723" duration="297000" />
+      <workItem from="1746622132723" duration="605000" />
     </task>
     <task id="LOCAL-00001" summary="implement mobile and desktop layouts">
       <option name="closed" value="true" />
@@ -221,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746622383184</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add prettier">
+      <option name="closed" value="true" />
+      <created>1746622609584</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746622609584</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -232,6 +240,7 @@
     <MESSAGE value="add redux" />
     <MESSAGE value="implement redux and fix mobile layout" />
     <MESSAGE value="implement app functionality" />
-    <option name="LAST_COMMIT_MESSAGE" value="implement app functionality" />
+    <MESSAGE value="add prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="add prettier" />
   </component>
 </project>

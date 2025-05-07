@@ -23,7 +23,7 @@ export interface WeatherState {
 }
 
 export interface HourlyWeatherData {
-  time: number;
+  time: string;
   icon: string;
   temp: number;
   description: string;
