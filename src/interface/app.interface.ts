@@ -4,12 +4,6 @@ export interface WeatherData {
   hourly?: any;
 }
 
-export interface WeatherCoordinates {
-  lat: number;
-  lon: number;
-  cityName: string;
-}
-
 export interface UpdateWeatherData {
   lat: number;
   lon: number;

@@ -31,7 +31,6 @@ export const getCoordinates = createAsyncThunk(
       const existing = JSON.parse(localStorage.getItem("weatherState") || "[]");
       const updated = [...existing, newCityWeather];
       localStorage.setItem("weatherState", JSON.stringify(updated));
-      console.log(newCityWeather);
       return newCityWeather;
     } catch (error: any) {
       return thunkAPI.rejectWithValue(error.response.data);

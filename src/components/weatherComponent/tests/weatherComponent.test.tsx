@@ -1,12 +1,12 @@
-import WeatherComponent from '../WeatherComponent';
-import { render, screen } from '../../../test.utils';
-import { WeatherState } from '../../../interface/app.interface';
+import WeatherComponent from "../WeatherComponent";
+import { render, screen } from "../../../test.utils";
+import { WeatherState } from "../../../interface/app.interface";
 
-describe('display weather data', () => {
+describe("display weather data", () => {
   let forecast: WeatherState;
   beforeAll(() => {
     forecast = {
-      cityName: 'Zaporizhzhia',
+      cityName: "Zaporizhzhia",
       lat: 47.8507859,
       lon: 35.1182867,
       weather: {
@@ -14,15 +14,15 @@ describe('display weather data', () => {
           temp: 21,
           weather: [
             {
-              main: 'Clear',
-              icon: '01d',
+              main: "Clear",
+              icon: "01d",
             },
           ],
         },
       },
     };
   });
-  test('current weather', async() => {
+  test("current weather", async () => {
     render(<WeatherComponent forecast={forecast} />);
     const city = await screen.findByText(/Zaporizhzhia/i);
     const weather = await screen.findByText(/Clear/i);
